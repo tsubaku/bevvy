@@ -1,0 +1,81 @@
+/* Making html5 elements block-level for older browsers */
+article, aside, footer, header, nav, section {
+    display: block
+}
+
+/** General **/
+h1 {
+    color: #242424;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: #242424;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4 {
+    color: #242424;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #242424;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+}
+
+input[type=text], select {
+    height: 30px;
+}
+
+input[type=button] {
+    float: left;
+    border: 1px solid #828282;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #303030;
+    text-decoration: none;
+    width: 100px;
+    background-color: #d6d6d6;
+}
+
+input[type=button]:disabled,
+input[type=button][disabled]{
+    border: 1px solid #bbbbbb;
+    background-color: #eeeeee;
+    color: #888888;
+    cursor: default;
+}
+
+/* Pagination */
+#div-pagination {
+    visibility: hidden;
+}
+
+.pagination li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.pagination li a {
+    float: left;
+    border: 1px solid #828282;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #303030;
+    text-decoration: none;
+    width: 100px;
+    background-color: #d6d6d6;
+}
